@@ -4,7 +4,7 @@ This is hybrid recommendation system and produces recommendation by filtering mo
 1. **Content based filtering:**
 Filter movies based on similarity between Credits, Genres and Keywords
 2. **Content based filtering:**
-Filter movies based on similarity between movies from prevoius list and movies in user's history
+Filter movies based on similarity between movies from previous list and movies in user's history
 3. **Collaborative filtering:**
 Movies are divided into clusters based on vote count and average votes. Cluster with most average votes is recommended to user.
 
