@@ -1,0 +1,27 @@
+<div id="wrapper">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+	<form action = "http://localhost:5000/welcome" name="login-form" class="login-form" action="" method="post">
+
+		<div class="header">
+		<h1>Login Form</h1>
+		<span>Movie recommendation system</span>
+		</div>
+
+		<div class="content">
+		<input name="username" type="text" class="input username" placeholder="Username" />
+		<div class="user-icon"></div>
+		<input name="password" type="password" class="input password" placeholder="Password" />
+		<div class="pass-icon"></div>
+		</div>
+		<div class="footer">
+		<input type="submit" name="submit" value="Login" class="button" />
+		</div>
+
+	</form>
+
+</div>
+<div class="gradient"></div>
+
+
+
+
