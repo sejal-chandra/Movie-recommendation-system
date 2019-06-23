@@ -1,11 +1,11 @@
 # Movie-recommendation-system
 Movies recommendation list is based on similarity between the movie given by user to other movies and this list is further divided into clusters.
 This is hybrid recommendation system and produces recommendation by filtering movies in 3 stages which are as follows:
-1. **Content based filtering**
-filter movies based on similarity between Credits, Genres and Keywords
-2. **Content based filtering**
-filter movies based on similarity between movies from prevoius list and movies in user's history
-3. **Collaborative filtering**
+1. **Content based filtering:**
+Filter movies based on similarity between Credits, Genres and Keywords
+2. **Content based filtering:**
+Filter movies based on similarity between movies from prevoius list and movies in user's history
+3. **Collaborative filtering:**
 Movies are divided into clusters based on vote count and average votes. Cluster with most average votes is recommended to user.
 
 ## Data Description
